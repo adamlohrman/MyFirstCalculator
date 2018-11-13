@@ -5,11 +5,14 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
    <title>Calculator</title>
 </head>
 <body>
+  <div class="display"></div>
    <div class="calculatorContainer">
-      <div class="display"></div>
          <form class="calculator">
            <button class="button button1">1</button>
            <button class="button button2">2</button>
@@ -20,14 +23,17 @@
            <button class="button button7">7</button>
            <button class="button button8">8</button>
            <button class="button button9">9</button>
+           <br>
            <button class="button button0">0</button>
-         </form>
-         <form class="calculate">
+          </form>
+          <form class="calculate">
+           <button class="button buttonDot">.</button>
            <button class="button buttonPlus">+</button>
            <button class="button buttonMinus">-</button>
            <button class="button buttonMultiply">x</button>
            <button class="button buttonDivide">/</button>
            <button class="button buttonEquals">=</button>
+           <button class="button buttonSquareRoot"><i class="fas fa-square-root-alt" id="sqrRoot"></i></button>
            <button class="button buttonClear">Clr</button>
          </form>
    </div>
